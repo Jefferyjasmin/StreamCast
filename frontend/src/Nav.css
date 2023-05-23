@@ -1,0 +1,125 @@
+.nav {
+  position: fixed;
+  top: 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 10px;
+  height: 38px;
+  z-index: 1;
+
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+}
+.nav_title {
+  color: #2fcb45;
+  position: absolute;
+  top: 10;
+  top: 3px;
+  left: 8%;
+  box-shadow: 0px 0px 17px #2fcb45;
+}
+
+.nav_title::before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 9px;
+  background: black;
+  border-top-left-radius: 100%;
+  border-top-right-radius: 100%;
+}
+
+.nav_logo {
+  position: fixed;
+  left: 0;
+  width: 42px;
+  object-fit: contain;
+}
+
+.nav_avatar {
+  cursor: pointer;
+  position: fixed;
+  right: 20px;
+  width: 42px;
+  object-fit: contain;
+}
+.nav_black {
+  background-color: #111 !important;
+}
+
+.nav_button {
+  border: none;
+  background: none;
+  position: relative;
+}
+.nav_auth_display {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 45px;
+  right: 26px;
+  width: 17%;
+}
+.nav_sidebar_dispaly {
+  display: none;
+}
+.nav_auth:hover {
+  background: #222020;
+}
+.search_nav:focus {
+  outline: none;
+  border-color: transparent;
+  box-shadow: none;
+}
+.nav_app_overlay {
+  background: black;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.8;
+}
+
+.nav_auth_button {
+  width: 100%;
+  position: relative;
+}
+.nav_auth {
+  width: 100%;
+  text-align: start;
+  height: 5%;
+  font-weight: 500;
+  background: black;
+  color: white;
+  height: 32px;
+  position: relative;
+  border: none;
+  border-bottom: 2px solid black;
+  display: flex;
+  align-items: center;
+}
+
+.nav_auth_item_overlay {
+  background: gray;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.nav_auth_item_overlay:hover {
+  opacity: 0.15;
+}

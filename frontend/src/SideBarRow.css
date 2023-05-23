@@ -1,0 +1,49 @@
+.side_bar_row {
+  margin-left: 20px;
+  color: white;
+}
+.side_bar_row > h2 {
+  text-align: center;
+}
+.side_bar_row_posters {
+  padding: 20px;
+}
+
+/*how to hide your scroll bar*/
+.side_bar_row_posters::-webkit-scrollbar {
+  display: none;
+}
+/*how to hide your scroll bar*/
+
+.side_bar_row_poster {
+  object-fit: contain;
+  width: 22%;
+  max-height: 100px;
+  margin-right: 10px;
+  transition: transform 450ms;
+}
+/* .side_bar_row_overlay {
+  background: black;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  
+  z-index: 100;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  
+} */
+
+.side_bar_row_poster:hover {
+  transform: scale(1.08);
+}
+
+.side_bar_row_posterLarge {
+  max-height: 250px;
+}
+
+.side_bar_row_posterLarge:hover {
+  transform: scale(1.09);
+}

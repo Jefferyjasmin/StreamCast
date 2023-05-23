@@ -1,0 +1,89 @@
+.register_heading {
+  color: white;
+  background: #2fcb45;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.register_title {
+  color: #2fcb45;
+  position: absolute;
+  margin-top: 14px;
+  box-shadow: 0px 0px 17px #2fcb45;
+  width: 10.4rem;
+  height: 2.82rem;
+  margin-right: auto;
+  text-align: center;
+}
+.register_form_section {
+  background: url("./images/netflix-library-photo-scaled.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  overflow: hidden;
+}
+.register_form {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 63%;
+  background: black;
+  width: 50%;
+  opacity: 0.9;
+}
+
+.register_form_overlay {
+  background: rgb(0, 0, 0, 0.4);
+  background-image: linear-gradient(
+    (0deg, rgba(0, 0, 0, 0.8)),
+    transparent 70%,
+    rgba(0, 0, 0, 0.8)
+  );
+  height: 100.1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register_input {
+  width: 100%;
+  height: 27px;
+  font-size: 1rem;
+  font-weight: 200;
+  outline: none;
+  border: none;
+  margin-top: 5px;
+  box-shadow: -1px 1px 5px black;
+  border-radius: 2px;
+}
+.register_input[input="text"]:focus {
+  border: 4px solid #9292bf;
+}
+.register_form-group {
+  width: 58%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.register_btn {
+  width: 50%;
+  height: 33px;
+  background-color: #2fcb45;
+  color: white;
+  font-weight: 600;
+}
+
+.register_register {
+  border: none;
+  background: black;
+  color: white;
+}
+
+.register_register:hover {
+  color: #2fcb45;
+}
