@@ -3,10 +3,12 @@
   color: white;
 }
 .side_bar_row > h2 {
-  text-align: center;
+  text-align: end;
 }
 .side_bar_row_posters {
   padding: 20px;
+  margin-left: 170px;
+  width: 500px;
 }
 
 /*how to hide your scroll bar*/
